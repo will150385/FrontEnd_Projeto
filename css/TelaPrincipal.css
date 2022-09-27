@@ -1,0 +1,42 @@
+body{
+    background-color:var( --cor-background);
+}
+
+.container{
+    
+    background-color:var(--cor-primaria);
+    display:flex;
+    border:solid 2px green;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    background-color:var(--cor-primaria);
+    height:300px;
+    width:700px;
+    border:solid 2px red;
+    margin:20px;
+    font-size:20px;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.preco{
+    display: flex;
+    justify-content: end;
+}
+.imagem{
+    height:200px;
+    width:200px;
+    border:solid 2px red;
+    margin:20px;
+    font-size:20px;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+
+}
