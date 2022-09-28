@@ -1,45 +1,18 @@
 body{
-    background-color: #F5DF06;
-}
-
-.container{
+    background-image: url("https://i.postimg.cc/6pcsXsyg/tratar.png%22");
     
-    background-color:var(--cor-primaria);
-    display:flex;
-    border:solid 2px green;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+}
 
-}
-.box{
-    background-color:var(--cor-primaria);
-    height:300px;
-    width:700px;
-    border:solid 2px red;
-    margin:20px;
-    font-size:20px;
-    display:flex;
-    justify-content: center ;
-    align-items: center;
-
-}
-.preco{
-    display: flex;
-    justify-content: end;
-}
-.imagem{
-    height:200px;
-    width:200px;
-    border:solid 2px red;
-    margin:20px;
-    font-size:20px;
-    display:flex;
-    justify-content: center ;
-    align-items: center;
+#container{
+    
+    display:grid;
+    gap:15px;
+    grid-template-columns: auto auto ;
+      
 
 }
 .logo{
     font-family: 'Bungee Spice', cursive;
+    text-align: center;  
+    
 }
