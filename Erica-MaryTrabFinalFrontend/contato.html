@@ -22,44 +22,38 @@
                 text-align: center;
             }
 
-            #barraInferior{
-                background-position-y: bottom;
+
+
+            .contato h2 {
+                /* padding: 100px; */
+                position: relative;
+                /* z-index: 3; */
             }
-    
-            /* .fundoImagem {
-                opacity: 0.3;
-            }    */
 
             .contato {
-                position: center;
+                height: 640px;
+                position: relative;
                 overflow: hidden;
-                padding: 0;
+                padding: 50px;
                 border: 1px dashed green;
             }
-            .contato h1 {
-                padding: 100px;
-                position: relative;
-                z-index: 2;
-            }
+
             .contato img {
                 position: absolute;
                 left: 0;
                 top: 0;
                 min-width: auto;
                 height: 650px;
-                opacity: 0.4;
+                opacity: 0.2;
+                /* z-index: 1; */
             }
 
-            /* #content{
+            #content{
                 display: flex; 
                 justify-content: center;
-            } */
-
-            .contato{
-                width: 100%;
-                max-width: 500px;
-                align-items: center;           
             }
+
+
 
             .form{
                 display: flex; 
@@ -86,7 +80,7 @@
         <link rel="stylesheet" href="./css/contato.css">        
     </head>
     <body> 
-        <div class="barra" id="barraInferior">
+        <div class="barra">
             <h6>Os mais variados modelos de carrinhos para coleção</h6>
         </div>
 
@@ -119,8 +113,9 @@
         </div> -->
 
         <div class="contato" id="content">
-            <h2>Entre em Contato</h2>
+            
                 <form class="form" method="post" action="./email.css">
+                    <h2>Entre em Contato</h2>
                     <input class="field"  name="name" placeholder="Nome">
                     <input class="field"  name="email" placeholder="Email (usuario@email.com)">
                     <input class="field" name="Telefone" placeholder="Telefone">
