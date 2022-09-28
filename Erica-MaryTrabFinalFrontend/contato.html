@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            body{
-                /* opacity: 0.4;                
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        /* opacity: 0.4;                
                 background-image: url('Imagens/carroBicolorFundoDasTelas_editada-650.jpg'); */
-                font-family: Arial, Helvetica, sans-serif;
-                background-position: center center;
-                background-repeat: no-repeat;
-                background-size: cover;             
-            }
-            
-            .barra{
-                color:#f5df06;
-                background-color: #160b54;
-                width: auto;
-                height: 30px;
-                text-align: center;
-            }
+        font-family: Arial, Helvetica, sans-serif;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
 
+      .barra {
+        color: #f5df06;
+        background-color: #160b54;
+        width: auto;
+        height: 30px;
+        text-align: center;
+      }
 
+      .contato h2 {
+        /* padding: 100px; */
+        position: relative;
+        /* z-index: 3; */
+      }
 
-            .contato h2 {
-                /* padding: 100px; */
-                position: relative;
-                /* z-index: 3; */
-            }
+      .contato {
+        height: 640px;
+        position: relative;
+        overflow: hidden;
+        padding: 50px;
+        border: 1px dashed green;
+      }
 
-            .contato {
-                height: 640px;
-                position: relative;
-                overflow: hidden;
-                padding: 50px;
-                border: 1px dashed green;
-            }
+      .contato img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-width: auto;
+        height: 650px;
+        opacity: 0.2;
+        /* z-index: 1; */
+      }
 
-            .contato img {
-                position: absolute;
-                left: 0;
-                top: 0;
-                min-width: auto;
-                height: 650px;
-                opacity: 0.2;
-                /* z-index: 1; */
-            }
+      #content {
+        display: flex;
+        justify-content: center;
+      }
 
-            #content{
-                display: flex; 
-                justify-content: center;
-            }
+      .form {
+        display: flex;
+        flex-direction: column;
+      }
 
+      .field {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+      }
 
+      textarea {
+        height: 150px;
+      }
+      #rsocial {
+        width: 50px;
+        height: 30px;
+        border-radius: 50%;
+        box-sizing: content-box;
+        text-align: end;
+        align-items: center;
+        display: inline;
+      }
+      #rsocial img:hover {
+        border-radius: 2px solid white;
+        transform: translate(-3px, -3px);
+        box-shadow: 5px 5px 10px black;
+        transition: transform 0.3s, border 1s;
+      }
+    </style>
+    <title>Contato</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- O link abaixo deverá ser referente à Tela Principal -->
+    <link rel="stylesheet" href="./css/telaPrincipal.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+  </head>
+  <body>
+    <div class="barra">
+      <h6>Os mais variados modelos de carrinhos para coleção</h6>
+    </div>
 
-            .form{
-                display: flex; 
-                flex-direction: column;
-            }
-
-            .field{
-                padding: 10px; 
-                margin-bottom: 15px; 
-                border: 2px solid black; 
-                border-radius: 15px;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 16px;
-            }
-
-            textarea{
-                height: 150px;
-            }
-        </style>
-        <title>Contato</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-        <!-- O link abaixo deverá ser referente à Tela Principal -->
-        <link rel="stylesheet" href="./css/telaPrincipal.css">
-        <link rel="stylesheet" href="./css/contato.css">        
-    </head>
-    <body> 
-        <div class="barra">
-            <h6>Os mais variados modelos de carrinhos para coleção</h6>
-        </div>
-
-        <!-- <div class="dadosCliente">
+    <!-- <div class="dadosCliente">
             
         </div> -->
 
-
-        <!-- <section id="content">
+    <!-- <section id="content">
             <div class="contato">
                 <h2>Entre em Contato</h2>
                 <form class="form" method="post" action="./email.css">
@@ -102,43 +115,77 @@
                 </form>
             </div>
         </section> -->
-    
-        <!-- Criando links para as redes sociais -->
-        <!-- <section id="rsocial">
+
+    <!-- Criando links para as redes sociais -->
+    <!-- <section id="rsocial">
 
         </section> -->
 
-        <!-- <div class="fundoImagem">
+    <!-- <div class="fundoImagem">
             <img src="https://www.viajologoexisto.com.br/wp-content/uploads/2018/05/Cuba_Havana-4580.jpg.webp" alt="Carro antigo bicolor restaurado à frente de prédios históricos coloridos." width="100%" height="640px">
         </div> -->
 
-        <div class="contato" id="content">
-            
-                <form class="form" method="post" action="./email.css">
-                    <h2>Entre em Contato</h2>
-                    <input class="field"  name="name" placeholder="Nome">
-                    <input class="field"  name="email" placeholder="Email (usuario@email.com)">
-                    <input class="field" name="Telefone" placeholder="Telefone">
-                    <input class="field" nome="assunto" placeholder="Assunto">
-                    <textarea class="field" name="Mensagem" placeholder="Digite aqui a sua mensagem..."></textarea>
-                    <input class="field" type="submit" value="Enviar">
-                </form>
-            <img src="https://www.viajologoexisto.com.br/wp-content/uploads/2018/05/Cuba_Havana-4580.jpg.webp" alt="Carro antigo bicolor restaurado à frente de prédios históricos coloridos." width="100%" height="640px">
-          </div>
+    <div class="contato" id="content">
+      <form class="form" method="post" action="./email.css">
+        <h2>Entre em Contato</h2>
+        <input class="field" name="name" placeholder="Nome" />
+        <label for="nome">Nome</label>
 
-        <section id="rsocial">
+        <input
+          class="field"
+          name="email"
+          placeholder="Email (usuario@email.com)"
+        />
+        <label for="email">Email</label>
 
-        </section>
+        <input class="field" name="Telefone" placeholder="Telefone" />
+        <label for="telefone">Telefone</label>
 
-        <div class="barra">
-            <h6>G4 miniaturas - endereço - telefones/celulares - redes sociais - email de contato</h6>
-        </div>
+        <textarea
+          class="field"
+          name="Mensagem"
+          placeholder="Digite aqui a sua mensagem..."
+        ></textarea>
 
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>        
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <input class="field" type="submit" value="Enviar" />
+      </form>
+      <img
+        src="https://www.viajologoexisto.com.br/wp-content/uploads/2018/05/Cuba_Havana-4580.jpg.webp"
+        alt="Carro antigo bicolor restaurado à frente de prédios históricos coloridos."
+        width="100%"
+        height="640px"
+      />
+    </div>
 
-        <!-- O script abaixo deverá ser o link com a Tela Principal -->
-        <script src="./js/telaPrincipal.js"></script>
-    </body>
+    <div id="rsocial">
+      <form>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_facebook.png" alt="Facebook"
+        /></a>
+        <a href="#" target="_blank">
+          <img src="./img/logo_instagram.png" alt="Instagram"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_twitter.png" alt="Twitter"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_whatsapp.png" alt="WhatsApp"
+        /></a>
+      </form>
+    </div>
+
+    <div class="barra">
+      <h6>
+        G4 miniaturas - endereço - telefones/celulares - redes sociais - email
+        de contato
+      </h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- O script abaixo deverá ser o link com a Tela Principal -->
+    <script src="./js/telaPrincipal.js"></script>
+  </body>
 </html>
