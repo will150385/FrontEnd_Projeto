@@ -1,64 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contato</title>
 
-    <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-image: url('Imagens/carroBicolorFundoDasTelas_editada-650.jpg');
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        #content{
-            display: flex; 
-            justify-content: center;
-        }
-        .contato{
-            width: 100%;
-            max-width: 500px;            
-        }
-        .form{
-            display: flex; 
-            flex-direction: column;
-        }
-        .field{
-            padding: 10px; 
-            margin-bottom: 15px; 
-            border: 2px solid black; 
-            border-radius: 15px;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-        }
-        textarea{
-            height: 150px;
-        }
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <!-- O link abaixo deverá ser referente à Tela Principal -->
+    <link rel="stylesheet" href="./css/telaPrincipal.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+  </head>
+  <body>
+    <script src="./js/contato.js"></script>
 
-    </style>
-</head>
-<body>
-    <section id="content">
-    <div class="contato">
-        <h2>Formulário de Contato</h2>
-        <form class="form" method="post" action="./email.css">
-            <input class="field"  name="name" placeholder="Nome">
-            <input class="field"  name="email" placeholder="Email (usuario@email.com)">
-            <input class="field" name="Telefone" placeholder="Telefone">
-            <input class="field" nome="assunto" placeholder="Assunto">
-            <textarea class="field" name="Mensagem" placeholder="Digite aqui a sua mensagem..."></textarea>
-            <input class="field" type="submit" value="Enviar">
-        </form>
+    <div id="content">
+      <form class="form" method="post" action="./js/contato.js">
+        <h1>Formulário de Contato</h1>
+
+        <input
+          class="cadastro"
+          type="text"
+          name="name"
+          placeholder="Nome Completo"
+        />
+        <label for="nome">Nome</label>
+
+        <input
+          class="cadastro"
+          type="email"
+          name="email"
+          placeholder="usuario@email.com"
+        />
+        <label for="email">Email</label>
+
+        <input
+          class="cadastro"
+          type="tel"
+          name="telefone"
+          placeholder="(xx) xxxx-xxxx"
+        />
+        <label for="telefone">Telefone</label>
+
+        <textarea
+          class="cadastro"
+          name="Mensagem"
+          placeholder="Digite aqui a sua mensagem..."
+        ></textarea>
+
+        <input
+          class="cadastro"
+          id="botao"
+          type="submit"
+          onclick="Enviar();"
+          value="Enviar"
+        />
+      </form>
     </div>
-    </section>
 
-    /*Criando links para as redes sociais*/
-    <section id="rsocial">
-        
-
-    </section>
-</body>
+    <div id="rsocial">
+      <form>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_facebook.png" alt="Facebook"
+        /></a>
+        <a href="#" target="_blank">
+          <img src="./img/logo_instagram.png" alt="Instagram"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_twitter.png" alt="Twitter"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="./img/logo_whatsapp.png" alt="WhatsApp"
+        /></a>
+      </form>
+    </div>
+  </body>
 </html>
