@@ -1,0 +1,72 @@
+[
+    {
+        "id":"1",
+        "nome": "Fusca",
+        "modelo": "1970",
+        "imagem": "https://m.media-amazon.com/images/I/61SLAAPn5pL._AC_SX569_.jpg",
+        "descricao": "O Volkswagen Typ 1, popularmente conhecido como Fusca (no Brasil) ou Carocha (em Portugal), foi o primeiro modelo de automóvel fabricado pela companhia alemã Volkswagen, sendo produzido entre 1938 e 2003. Foi o carro mais vendido no mundo, ultrapassando em 1972 o recorde que pertencia até então ao Ford Modelo T, de origem estadunidense.",
+        "categoria": "classicos"
+    },
+    {
+        "id":"2",
+        "nome": "Chevette",
+        "modelo": "tubarao 1973",
+        "imagem": "https://images.tcdn.com.br/img/img_prod/1102426/chevette_76_dumont_parts_192_12326_3_d2908994cbe21c2c50ae5f56156eb712.jpg",
+        "descricao": "Com 4,120 m de comprimento, 1,570 m de largura, 1,320 m de altura e 2,390 m de entre eixos, o Chevette Tubarão era simpático. Sua frente tinha dois faróis circulares simples, montados em molduras quadradas. A grade tinha quatro frisos cromados e o capô retilíneo descia até sobre ela.",
+        "categoria": "classicos"
+
+    },
+    {
+        "id": "3",
+        "nome": "Batmovel",
+        "modelo": "1966",
+        "imagem": "https://i.pinimg.com/736x/67/6f/14/676f1419300d1d017030fd8cbe510ea4--batmobile-cool-cars.jpg",
+        "descricao": "O Batmóvel 1, o original do filme, era realmente o Lincoln Futura modificado, com carroceria de aço e o retrabalho feito por Barris, que inclui em seu currículo muitos carros para Elvis Presley e séries de TV, como “Os Monstros”, além do protagonista do filme “Carro, a Máquina do Diabo”.",
+        "categoria": "tematicos"
+    },
+    {
+        "id":"4",
+        "nome": "Bumblebee",
+        "modelo": "camaro",
+        "imagem": "https://a-static.mlcdn.com.br/1500x1500/carro-miniatura-camaro-transformers-bumblebee-1-32-chevrolet-krypton-action/actionkrypton/15810251746/354d26a00e97b95b556f3072f23b33fe.jpg",
+        "descricao": "Miniatura fabricada em metal com partes em plástico ,pneus em borracha ,fricção,rodas pretas,interior preto detalhado com volante prata,pintura e adesivos iguais ao carro do filme.",
+        "categoria":"tematicos"
+    },
+    {
+        "id":"5",
+        "nome": "Caveirao bope",
+        "modelo": "zeus",
+        "imagem": "https://http2.mlstatic.com/D_891361-MLB49120696800_022022-F.webp",
+        "descricao": "Miniatura do Caveirão do BOPE - PMERJ Produto novo e exclusivo, acompamha dois bonecos.Dimensões: Comprimento:35 cm, largura:17cm, altura 14cm.Para demais personalizações, gentileza consultar disponibilidade.Opção de presente. Produto para colecionadores e admiradores de viaturas policiais.",
+        "categoria": "tematicos"
+    },
+
+    {
+        "id":"6",
+        "nome": "Bugatti",
+        "modelo": "chiron",
+        "imagem": "https://lebiscuit.vtexassets.com/arquivos/ids/2036950/BUR11040.jpg?v=637809605708830000",
+        "descricao": "Miniatura - bugatti chiron - 1/18 - bburago composição: metal die-cast com detalhes em plástico com pneus emborrachados;-abertura de portas e do capô; -rodas se movimentam conforme movimento do volante.;",
+        "categoria": "esportivos"
+    },
+    {
+        "id":"7",
+        "nome": "Porsche",
+        "modelo": "taycan",
+        "imagem": "https://1.bp.blogspot.com/-spbqk7lzqN4/YCMK3XGJXqI/AAAAAAACrU8/UAjyQA0X6NYcTHVhReEn-P3frc3sYfWNACNcBGAsYHQ/s1440/Premium01210018.jpg",
+        "descricao": "Miniaturas originais,Porscher Taycan Turbos S.",
+        "categoria": "esportivo"
+
+
+    },
+    {
+        "id":"8",
+        "nome": "caminhao",
+        "modelo": "Mercedes 1520",
+        "imagem": "https://images-americanas.b2w.io/produtos/4463620062/imagens/miniatura-caminhao-mercedes-benz-1520-betoneira-cimento-1-43/4463620071_1_large.jpg",
+        "descricao": "Carroceria de Metal com algumas partes em Plástico Pneus de Borracha Não abre portas Betoneira giratória Tamanho 18 cm C x 6 cm L x 8,5 cm A",
+        "categoria": "utilitarios"
+    }
+]
+
+//https://mocki.io/v1/14990665-ba44-49c0-a3f9-5a52336177f6

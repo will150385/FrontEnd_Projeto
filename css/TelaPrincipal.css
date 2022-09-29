@@ -1,133 +1,45 @@
 body{
-    background-image: url("https://amominhabiblia.com.br/wp-content/uploads/2019/11/desafio-biblico-landing-page-fundo.jpg");
-    
-}
-.card{
-    border-radius: 20px;
-    
-
-}
-.card-img-top{
-    border-radius: 20px;
-
-
+    background-color: #F5DF06;
 }
 
-
-#container{
+.container{
     
-    display:grid;
-    gap:20px;
-    grid-template-columns: auto auto auto ;
-    padding-left: 10%;
-    padding-right: 10%;
-   
-      
+    background-color:var(--cor-primaria);
+    display:flex;
+    border:solid 2px green;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box{
+    background-color:var(--cor-primaria);
+    height:300px;
+    width:700px;
+    border:solid 2px red;
+    margin:20px;
+    font-size:20px;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+.preco{
+    display: flex;
+    justify-content: end;
+}
+.imagem{
+    height:200px;
+    width:200px;
+    border:solid 2px red;
+    margin:20px;
+    font-size:20px;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
 
 }
 .logo{
     font-family: 'Bungee Spice', cursive;
-    text-align: center;  
-    
-}
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-footer{
-    background-color: #686d80;
-    padding: 20px 0;
-}
-.container-footer{
-    max-width: 1400px;
-    padding: 0 4%;
-    margin: auto;
-}
-.row-footer{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.footer{
-    width: 25%;
-    padding: 0 15px;
-}
-.footer h4{
-    font-size: 22px;
-    color: white;
-    margin-bottom: 20px;
-    font-weight: 500;
-    position: relative;
-    text-transform: uppercase;
-}
-.footer ul{
-    list-style: none;
-}
-.footer ul li{
-    margin: 10px 0;
-}
-.footer ul li a{
-    font-size: 16px;
-    text-transform: capitalize;
-    color: white;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition: all 0.3s ease;
-}
-.footer ul li a:hover{
-    color: #cecdcd;
-    padding-left: 10px;
-}
-.footer .medias-socias{
-    margin-top: 30px;
-}
-.footer .medias-socias a{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    height: 40px;
-    width: 40px;
-    margin: 0 10px 10px 0;
-    text-decoration: none;
-    border-radius: 50%;
-    color: white;
-    border: 1px solid white;
-    transition: all 0.5s ease;
-}
-.footer .medias-socias a i{
-    font-size: 20px;
-}
-
-.footer .medias-socias a:hover{
-    color: rgb(38, 38, 173);
-    background-color: rgb(192, 185, 185);
-}
-.footer .form-sub input{
-    width: 100%;
-    padding: 10px;
-    font-size: 15px;
-    outline: none;
-    border: 1px solid white;
-    color: white;
-    background-color: #9fa2b1;
-}
-.footer .form-sub input::placeholder{
-    color: white;
-}
-.footer .form-sub button{
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px; 
-    font-size: 17px;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    color: #415aca;
-    border-radius: 3px;
-    font-weight: bold;
-    background-color: white;        
 }
