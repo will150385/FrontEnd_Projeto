@@ -14,15 +14,15 @@ body{
     
 }
 .box-login{
-width: auto;
-margin:auto;
-border:1px solid var(--cor-terciaria);
-border-radius:40px;
-padding:100px;
-margin-top: 150px;
-margin-bottom: 150px;
-background-color: var(--cor-secundaria);
-font-family: 'Bungee Spice', cursive;
+    width: auto;
+    margin:auto;
+    border:1px solid var(--cor-terciaria);
+    border-radius:40px;
+    padding:100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: var(--cor-secundaria);
+    font-family: 'Bungee Spice', cursive;
 
 
 }
