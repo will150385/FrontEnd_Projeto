@@ -13,12 +13,12 @@
 </head>
 <body onload = "buscardados()" >
     <header>
-        <nav class="nav nav-pills nav-justified">
-            <a class="nav-item nav-link active" href="#">Active</a>
+        <nav  class="nav nav-pills nav-justified">
+            <a class="nav-item nav-link active" href="#">Home</a>
             <a class="nav-item nav-link" href="#">Link</a><!--tem que colocar o link aqui para a pagina 2-->
             <a class="nav-item nav-link" href="#">Link</a><!--tem que colocar o link aqui para a pagina 3-->
             <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            <button onclick="sair()">Sair</button>
+            <button type="button" class="btn btn-danger" onclick="sair()">Sair</button>
         </nav>
         
     </header>
@@ -29,14 +29,63 @@
     
     
 
-    <div id="container">
+    <div id="container" >
               
     
         
 
     </div>
+   
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
 
-    <footer></footer>
+                <div class="footer">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#"> Quem somos </a></li>
+                        <li><a href=""> Nossos serviços </a></li>
+                        <li><a href=""> Política de privacidade </a></li>
+                        <li><a href=""> Contatos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <h4>Obter ajuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Opçoes de entrega</a></li>
+                        <li><a href="#">devoluções</a></li>
+                        <li><a href="#">Status de pedido</a></li>
+                        <li><a href="#">Opções de pagamento</a></li>
+                    </ul>
+                </div>
+
+
+                <div class="footer">
+                    <h4>Cadastre-se</h4>
+                    <div class="form-sub">
+                        <form>
+                            <input type="email" placeholder="Digite o seu e-mail" required>
+                            <button>cadastrar</button>
+                        </form>
+                    </div>
+
+                    <div class="medias-socias">
+                        <a href="#"> <i class="fa fa-facebook"></i> </a>
+                        <a href="#"> <i class="fa fa-instagram"></i> </a>
+                        <a href="#"> <i class="fa fa-twitter"></i> </a>
+                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>

@@ -1,5 +1,5 @@
 async function buscardados(){
-    var respostaAPI= await fetch('https://mocki.io/v1/14990665-ba44-49c0-a3f9-5a52336177f6')
+    var respostaAPI= await fetch('https://mocki.io/v1/3fa1317a-ebcc-4250-818b-482b5bcf16da')
 
     var dadosapimoc = await respostaAPI.json()
 
@@ -10,15 +10,46 @@ async function buscardados(){
         <div class="card" style="width: 18rem;">
             <img class="card-img-top" src=${item.imagem} alt="Card image cap">
             <div class="card-body">
-            <h5 class="card-title">${item.nome}</h5>
-            <p class="card-text">${item.modelo}</p>
-            <p class="card-text">${item.categoria}</p>
-            <a href="#foo"${item.descricao} class="btn btn-primary">Descrição</a>
-            </div>        
+                 
+                <h5 class="card-title">${item.nome}</h5>
+
+                <p class="card-text">${item.preco}</p>
+                <p class="card-text">${item.categoria}</p>
+                
+                    <a button type="button" id="bt" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal${item.id}">Descrição</a>
+
+
+                                <!-- Modal -->
+                    
+                    <div class="modal fade"  id="exampleModal${item.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Descrição do Produto</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                        </div>
+                                        
+                                            <div class="modal-body" id="exampleModal">${item.descricao}</div>
+                                                                        
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        </div>
+                                        
+                                    
+                                </div>
+                            </div>
+                    </div>
+                
+            </div> 
+             
+                 
         </div>  
         
         `
         document.getElementById("container").insertAdjacentHTML('beforeend',card)
+        
 
     } )
 
