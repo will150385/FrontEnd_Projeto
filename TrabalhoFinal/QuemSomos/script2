@@ -1,0 +1,26 @@
+async function pegarDados() {
+   var usuarios = ["vTekashi" , "RodrigoRLA"]
+   
+    // var usuario = "vTekashi"
+    var respostaAPI = await fetch(`https://api.github.com/users/${usuario}`);
+
+    var data = await respostaAPI.json();
+    
+    console.log(data.name)
+
+    document.getElementById("nome").innerHTML = data.name;
+
+    // var usuario = "vTekashi"
+    // // var respostaAPI = await fetch(`https://api.github.com/users/${usuario}`);
+    
+    // // var data = await respostaAPI.json();
+    // // console.log("resposta:" + data)
+    // var data = fetch(`https://api.github.com/users/${usuario}`)
+    // .then((response) => response.json())
+    // .then((data) => console.log(data));
+    
+    
+    // console.log(data.avatar_url)
+
+    // document.getElementById("foto").innerHTML = avatar_url;
+}

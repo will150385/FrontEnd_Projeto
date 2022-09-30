@@ -1,0 +1,41 @@
+*{
+    font-family: Carter One;
+}
+body{
+    background-image: url("https://amominhabiblia.com.br/wp-content/uploads/2019/11/desafio-biblico-landing-page-fundo.jpg");
+    
+    
+}
+.logo {
+    color:var(--cor-primaria);
+    font-size: 55px;
+    font-weight: 600aut;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px; 
+    grid-template-columns: auto auto ;
+    
+    
+}
+.box-login{
+    width: auto;
+    margin:auto;
+    border-radius:40px;
+    padding:100px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: var(--cor-secundaria);
+    font-family: 'Bungee Spice', cursive;
+
+
+}
+#btn-entrar{
+    width: 100%;
+    background-color:#150b50;
+    font-size: 25px;
+    border-radius: 40px;
+
+}
+#email, #senha{
+    border-radius: 40px;
+}
