@@ -4,32 +4,78 @@
 body{
     background-size: cover;
     background-image: url("https://amominhabiblia.com.br/wp-content/uploads/2019/11/desafio-biblico-landing-page-fundo.jpg");
-    
+    color: var(--azul);
 }
-.card{
-    border-radius: 20px;  
 
+.entreEmContato h1{
+    color: var(--azul);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
-.card-img-top{
+
+.entreEmContato h5{
+    color: var(--azul);
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.entreEmContato h6{
+    color: var(--azul);
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#lgpd{
+    color: var(--azul);
+    font-size: 15px;
+    text-align: justify;
+}
+
+.box-contato{
+    border-radius: 40px;
+    justify-content: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: var(--cinza);
+}
+
+#btn-enviar{
+    width: 100%;
+    margin-bottom: 100px;
     border-radius: 20px;
 }
-#container{ 
-    display: flex;
-    justify-content: space-around;
-    display:grid;
-    gap:20px;
-    grid-template-columns: auto auto auto ;
-    padding-left: 10%;
-    padding-right: 10%;
-    margin-bottom: 20px;
+
+#usuario{
+    border-radius: 40px;
+    width: 100%;
 }
-.logo{
-    text-align: center;
-    color: white;  
-    
+
+#email{
+    border-radius: 40px;
+    width: 100%;  
 }
-#logo1{
-    color: white; 
+
+#telefone{
+    border-radius: 40px;
+    width: 100%;        
+}
+
+#assunto{
+    border-radius: 40px;
+    width: 100%;        
+}
+
+#mensagem{
+    border-radius: 15px;
+    width: 100%;        
 }
 footer{
     position: relative;
@@ -135,3 +181,4 @@ footer{
 #botao, #digite{
     border-radius: 20px;
 }
+

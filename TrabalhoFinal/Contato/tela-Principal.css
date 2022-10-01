@@ -1,10 +1,15 @@
-*{
-    font-family: Carter One;
+:root{
+    --azul: #160B54;
+    --amarelo: #F5DF06;
+    --cinza: #dcdcdc71;
+    --branco: FFFFFF;
 }
+
 body{
-    background-size: cover;
     background-image: url("https://amominhabiblia.com.br/wp-content/uploads/2019/11/desafio-biblico-landing-page-fundo.jpg");
-    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .card{
     border-radius: 20px;  

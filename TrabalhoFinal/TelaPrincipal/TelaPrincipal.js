@@ -57,3 +57,6 @@ async function buscardados(){
 
 }
 // https://mocki.io/v1/52723e6a-e2eb-43b8-96db-bc6d47996fdb
+function sair(){
+    location.href = "../TelaLogin/login.html"
+}
